@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-decoration: none;
+ 
+  border: none;
+}
+
+.header-nav{
+  width: 100vw; 
+  height: 10vh;
+  color:#fff;
+}
+
+.header-nav p{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top:10px;
+    left: 50px;
+    color: black;
+    font-size: 35px;
+   font-weight: bold;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position:fixed;
+    top:20px;
+    left:900px;
+    color: gray;
+   }
+.header-nav li{
+    margin-left: 1.25rem;
+  }
+  .header-nav li:hover{
+    font-weight: bold;
+    color:black;
+    cursor:pointer;
+ }
+
+.header-text{
+width: 100vw;
+height: 70vh;
+position: absolute;
+ }
+
+.header-text img{
+display: flex;
+position: relative;
+width: 100vw;
+height: 80vh;
+ }
+
+.header-text h1{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+position: absolute;
+top:200px;
+left: 90px;
+color:#fff;
+font-size: 60px;
+font-weight: bold;
+ }
+
+.header-text h2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  top:300px;
+  left: 90px;
+  color:#fff;
+  font-weight: lighter;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+}
+
+.images{
+display: flex;
+flex-wrap:wrap;
+position:absolute;
+top: 600px;
+left: 100px;
+}
+
+.img-center{
+  width: 290px;
+  height: 290px;
+  padding: 0.35rem;
+}
+
+footer{
+width: 100vw;
+height: 20vh;
+position: absolute;
+top:1600px;
+}
+
+.icons-socialmedia{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: white;
+width: 400px;
+height: 50px;
+position: absolute;
+left: 100px;
+}
+
+.copyright{
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+align-items: center;
+background-color: white;
+width: 750px;
+height: 30px;
+position: absolute;
+top:15px;
+left: 500px;
+}
+
+.autoria{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+.copyright p{
+display: flex;
+position: relative;
+left:0px;
+font-size: 10px;
+font-weight: bold;
+}
